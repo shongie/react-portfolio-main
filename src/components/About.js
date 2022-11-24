@@ -8,7 +8,7 @@ import xongipic from '../../src/img/xongi-pic.jpg';
 class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
-      var profilepic = "../public/images/xongi-pic.jpg" + this.props.sharedBasicInfo.image;
+      // var profilepic = "../public/images/xongi-pic.jpg" + this.props.sharedBasicInfo.image;
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
